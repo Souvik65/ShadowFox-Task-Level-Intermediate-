@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="/images2/csklogo.png" type="image/x-icon">
+<body>
+    <header>
+        <img src="/images2/csklogo.png" alt="CSK">
+        <div class="navlink link">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="match.html">Matches</a></li>
+            <li><a href="players.html">Players</a></li>
+            <li><a href="statistics.html">Statistics</a></li>
+            <li><a href="news.html">News</a></li>
+        </div>
+        <div class="navicon">
+            <i class="fa-solid fa-bars" onclick="show()"></i>
+        </div>
+
+    </header>
+
+    <div class="side-nav" id="side-nav">
+        <p class="cancel">
+            <i class="fa-solid fa-xmark" onclick="cancel()"></i>
+        </p>
+
+        <div class="side-navlink link">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="match.html">Matches</a></li>
+            <li><a href="players.html">Players</a></li>
+            <li><a href="statistics.html">Statistics</a></li>
+            <li><a href="news.html">News</a></li>
+        </div>
+    </div>
+    <section class="statistics">
+        <h1 class="head">Statistics</h1>
+        <div class="container">
+            <h2>Team Statistics</h2>
+            <div class="stats-table">
+                <table>
+                    <tr>
+                        <th>Season</th>
+                        <th>Matches Played</th>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Win Percentage</th>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>16</td>
+                        <td>9</td>
+                        <td>7</td>
+                        <td>56.25%</td>
+                    </tr>
+                    <tr>
+                        <td>2009</td>
+                        <td>15</td>
+                        <td>8</td>
+                        <td>7</td>
+                        <td>53.33%</td>
+                    </tr>
+                    <tr>
+                        <td>2010</td>
+                        <td>16</td>
+                        <td>9</td>
+                        <td>7</td>
+                        <td>56.25%</td>
+                    </tr>
+                    <tr>
+                        <td>2011</td>
+                        <td>16</td>
+                        <td>11</td>
+                        <td>5</td>
+                        <td>68.75%</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>19</td>
+                        <td>10</td>
+                        <td>9</td>
+                        <td>52.63%</td>
+                    </tr>
+                    <tr>
+                        <td>2013</td>
+                        <td>18</td>
+                        <td>12</td>
+                        <td>6</td>
+                        <td>66.67%</td>
+                    </tr>
+                    <tr>
+                        <td>2014</td>
+                        <td>16</td>
+                        <td>10</td>
+                        <td>6</td>
+                        <td>62.50%</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>17</td>
+                        <td>10</td>
+                        <td>7</td>
+                        <td>58.82%</td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>16</td>
+                        <td>9</td>
+                        <td>7</td>
+                        <td>56.25%</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>17</td>
+                        <td>10</td>
+                        <td>7</td>
+                        <td>58.82%</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>14</td>
+                        <td>6</td>
+                        <td>8</td>
+                        <td>42.86%</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>16</td>
+                        <td>9</td>
+                        <td>7</td>
+                        <td>56.25%</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>14</td>
+                        <td>4</td>
+                        <td>10</td>
+                        <td>28.57%</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>14</td>
+                        <td>8</td>
+                        <td>6</td>
+                        <td>57.14%</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>14</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>50%</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <h2>Player Statistics</h2>
+            <div class="stats-table">
+                <table>
+                    <tr>
+                        <th>Player</th>
+                        <th>Matches</th>
+                        <th>Runs</th>
+                        <th>Average</th>
+                        <th>Strike Rate</th>
+                        <th>50s/100s</th>
+                        <th>Catches/Stumpings</th>
+                        <th>Wickets</th>
+                        <th>Economy</th>
+                    </tr>
+                    <tr>
+                        <td>MS Dhoni</td>
+                        <td>234</td>
+                        <td>5038</td>
+                        <td>39.37</td>
+                        <td>137.59</td>
+                        <td>23/0</td>
+                        <td>152/38</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Suresh Raina</td>
+                        <td>200</td>
+                        <td>5528</td>
+                        <td>33.30</td>
+                        <td>137.14</td>
+                        <td>38/1</td>
+                        <td>102</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Ravindra Jadeja</td>
+                        <td>142</td>
+                        <td>1971</td>
+                        <td>25.64</td>
+                        <td>129.89</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>93</td>
+                        <td>7.57</td>
+                    </tr>
+                    <tr>
+                        <td>Dwayne Bravo</td>
+                        <td>144</td>
+                        <td>1560</td>
+                        <td>22.86</td>
+                        <td>130.29</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>153</td>
+                        <td>8.39</td>
+                    </tr>
+                    <tr>
+                        <td>Shane Watson</td>
+                        <td>43</td>
+                        <td>1252</td>
+                        <td>30.54</td>
+                        <td>141.20</td>
+                        <td>7/2</td>
+                        <td>-</td>
+                        <td>21</td>
+                        <td>7.93</td>
+                    </tr>
+                </table>
+            </div>
+
+            
+
+
+    </section>
+    <footer> 
+        <h1>SPONSORS</h1>
+        <div class="sponsors">
+        <div class="sponsor">
+        <img src="images2/sponcers/ceat.svg" alt="">
+    </div>
+    <div class="sponsor">
+        <img src="images2/sponcers/jiocinema.svg" alt="">
+    </div>
+    <div class="sponsor">
+        <img src="images2/sponcers/Gulf_Oil_logo.svg" alt="">
+    </div>
+    <div class="sponsor">
+        <img src="images2/sponcers/Muthoot Finance.svg" alt="">
+    </div>
+    <div class="sponsor">
+        <img src="images2/sponcers/my11.svg" alt="">
+    </div>
+    <div class="sponsor">
+        <img src="images2/sponcers/star_sports.svg" alt="">
+    </div>
+    <div class="sponsor">
+        <img src="images2/sponcers/tata.svg" alt="">
+    </div>
+</div>
+        <div class="footer-icon">
+            
+            <div class="contact-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="match.html">Matches</a></li>
+                <li><a href="players.html">Players</a></li>
+                <li><a href="statistics.html">Statistics</a></li>
+                <li><a href="news.html">News</a></li>
+        
+            </div>
+            <div class="contact-links">
+                <a href="#">Tickets</a>
+                <a href="#">Team</a>
+                <a href="#">Photos</a>
+                <a href="#">Accessibility</a>
+                <a href="#">About us</a>
+            </div>
+            
+        <div class="icon">
+<h5>Connect with CSK </h5>
+<p class="youtube"><a href="https://www.youtube.com/channel/UC2J_VKrAzOEJuQvFFtj3KUw" target="_blank"><i class="fa-brands fa-youtube"></i></a></p>
+<p class="instagram"><a href="https://www.instagram.com/chennaiipl/" target="_blank"><i class="fa-brands fa-instagram"></i></a></p>
+<p class="facebook"><a href="https://www.facebook.com/TheChennaiSuperKings/" target="_blank"><i class="fa-brands fa-facebook"></i></a></p>
+<p class="twitter"><a href="https://x.com/ChennaiIPL" target="_blank"><i class="fa-brands fa-twitter"></i></a></p>
+
+        </div>
+       
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

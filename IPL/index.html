@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSK Fan Page</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="/images2/csklogo.png" type="image/x-icon">
+
+</head>
+
+<body>
+    
+    <header>
+        <img src="/images2/csklogo.png" alt="RCB">
+        <div class="navlink link">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="match.html">Matches</a></li>
+            <li><a href="players.html">Players</a></li>
+            <li><a href="statistics.html">Statistics</a></li>
+            <li><a href="news.html">News</a></li>
+        </div>
+        <div class="navicon">
+            <i class="fa-solid fa-bars" onclick="show()"></i>
+        </div>
+
+    </header>
+
+    <div class="side-nav" id="side-nav">
+        <p class="cancel">
+            <i class="fa-solid fa-xmark" onclick="cancel()"></i>
+        </p>
+
+
+        <div class="side-navlink link">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="match.html">Matches</a></li>
+            <li><a href="players.html">Players</a></li>
+            <li><a href="statistics.html">Statistics</a></li>
+            <li><a href="news.html">News</a></li>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="images2/banner/5.jpg" alt="Slide 1"></div>
+            <div class="slide"><img src="images2/banner/1.jpg" alt="Slide 2"></div>
+            <div class="slide"><img src="images2/banner/2.jpg" alt="Slide 3"></div>
+            <div class="slide"><img src="images2/banner/3.jpg" alt="Slide 4"></div>
+            <div class="slide"><img src="images2/banner/4.webp" alt="Slide 5"></div>
+            <div class="slide"><img src="images2/banner/6.webp" alt="Slide 6"></div>
+            <div class="slide"><img src="images2/banner/7.jpg" alt="Slide 6"></div>
+            <div class="slide"><img src="images2/banner/8.jpg" alt="Slide 6"></div>
+            <div class="slide"><img src="images2/banner/9.jpg" alt="Slide 6"></div>
+            <div class="slide"><img src="images2/banner/10.jpg" alt="Slide 6"></div>
+              
+    </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+    
+   
+    <h1 class="head">Upcoming Matches</h1>
+    <section class="matches">
+
+        <div>
+            <div class="asd2">
+                <div class="team1">
+                    <h1 class="asd1"> Chennai Super Kings <br><br> 220/4 ( 20.0 ov)</h1>
+                    <div class="asd">
+                        <img src="images2/csklogo.png" alt="CSK">
+                    </div>
+                    <h1 class="asd1"> Vs</h1>
+                    <div class="asd">
+                        <img src="images2/dc_logo.png" alt="DC">
+                    </div>
+                    <h1 class="asd1">Delhi Capitals <br><br> 218/7 ( 20.0 ov) </h1>
+                </div>
+                <h1 class="asd1"> Chennai Super Kings beat Delhi Capitals by 2 runs </h1>
+                <h1 class="asd1"> Friday 26 May 2024 </h1>
+            </div>
+
+            <a href="match.html"><button class="btn">Past Matches <i class="fa-solid fa-arrow-right"></i></button></a>
+
+        </div>
+    </section>
+
+
+    <section class="csk_players">
+        <h1 class="head">Players</h1>
+        <h1>BATTERS</h1>
+        <div class="players">
+
+            <div class="profile">
+                <img src="images2/1.png" alt="Player 1">
+                <div class="profile-info">
+                    <h2>MS Dhoni</h2>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images2/4.png" alt="Player 1">
+                <div class="profile-info">
+                    <h2>Ruturaj Gaikwad</h2>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images2/7.png" alt="Player 1">
+                <div class="profile-info">
+                    <h2>Devon Conway</h2>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images2/15.png" alt="Player 2">
+                <div class="profile-info">
+                    <h2>Ajinkya Rahane</h2>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images2/16.png" alt="Payer 2">
+                <div class="profile-info">
+                    <h2>Shaik Rasheed</h2>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images2/20.png" alt="Payer 2">
+                <div class="profile-info">
+                    <h2>Sameer Rizvi</h2>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images2/23.png" alt="Payer 2">
+                <div class="profile-info">
+                    <h2>Avinash Rao Aravelly </h2>
+                </div>
+            </div>
+
+            
+
+        </div>
+         <a href="players.html"><button onclick="view()" class="btn">View More</button></a>
+        <div class="hide-players">
+            <h1>ALL - ROUNDERS</h1>
+            <div class="players">
+                <div class="profile">
+                    <img src="images2/2.png" alt="Player 1">
+                    <div class="profile-info">
+                        <h2>Ravindra Jadeja</h2>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="images2/3.png" alt="Player 2">
+                    <div class="profile-info">
+                        <h2>Moeen Ali</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="images2/6.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Mitchell Santner</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="images2/8.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Shivam Dube</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="images2/10.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Rajvardhan Hangargekar</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="images2/17.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Nishant Sindhu</h2>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="images2/19.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Ajay Mandal</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="images2/21.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Daryl Mitchell</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="images2/22.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Rachin Ravindra </h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="images2/25.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Shardul Thakur </h2>
+                    </div>
+                </div>
+            </div>
+
+            <h1>BOWLERS</h1>
+            <div class="players">
+                <div class="profile">
+                    <img src="images2/5.png" alt="Player 1">
+                    <div class="profile-info">
+                        <h2>Deepak Chahar</h2>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="images2/9.png" alt="Player 2">
+                    <div class="profile-info">
+                        <h2>Maheesh Theekshana</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="images2/11.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Tushar Deshpande</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="images2/12.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Prashant Solanki</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="images2/13.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Simarjeet Singh</h2>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="images2/14.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Matheesha Pathirana</h2>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="images2/24.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Mustafizur Rahman</h2>
+                    </div>
+                </div>
+
+
+                <div class="profile">
+                    <img src="images2/26.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Mukesh Choudhary</h2>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="images2/27.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>Richard Gleeson</h2>
+                    </div>
+                </div>
+
+                <!-- <div class="profile">
+                    <img src="Images/vijay.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>vyshak vijay kumar</h2>
+                    </div>
+                </div> -->
+            </div>
+
+            <button onclick="hide()" class="btn">View less</button>
+
+        </div>
+    </section>
+
+
+
+    <section class="statistics">
+        <h1 class="head">Statistics</h1>
+        <div class="container">
+            <h2>Team Statistics</h2>
+            <div class="stats-table">
+                <table>
+                    <tr>
+                        <th>Season</th>
+                        <th>Matches Played</th>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Win Percentage</th>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>16</td>
+                        <td>9</td>
+                        <td>7</td>
+                        <td>56.25%</td>
+                    </tr>
+                    <tr>
+                        <td>2009</td>
+                        <td>15</td>
+                        <td>8</td>
+                        <td>7</td>
+                        <td>53.33%</td>
+                    </tr>
+                    <tr>
+                        <td>2010</td>
+                        <td>16</td>
+                        <td>9</td>
+                        <td>7</td>
+                        <td>56.25%</td>
+                    </tr>
+                    <tr>
+                        <td>2011</td>
+                        <td>16</td>
+                        <td>11</td>
+                        <td>5</td>
+                        <td>68.75%</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>19</td>
+                        <td>10</td>
+                        <td>9</td>
+                        <td>52.63%</td>
+                    </tr>
+                    <tr>
+                        <td>2013</td>
+                        <td>18</td>
+                        <td>12</td>
+                        <td>6</td>
+                        <td>66.67%</td>
+                    </tr>
+                    <tr>
+                        <td>2014</td>
+                        <td>16</td>
+                        <td>10</td>
+                        <td>6</td>
+                        <td>62.50%</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>17</td>
+                        <td>10</td>
+                        <td>7</td>
+                        <td>58.82%</td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>16</td>
+                        <td>9</td>
+                        <td>7</td>
+                        <td>56.25%</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>17</td>
+                        <td>10</td>
+                        <td>7</td>
+                        <td>58.82%</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>14</td>
+                        <td>6</td>
+                        <td>8</td>
+                        <td>42.86%</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>16</td>
+                        <td>9</td>
+                        <td>7</td>
+                        <td>56.25%</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>14</td>
+                        <td>4</td>
+                        <td>10</td>
+                        <td>28.57%</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>14</td>
+                        <td>8</td>
+                        <td>6</td>
+                        <td>57.14%</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>14</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>50%</td>
+                    </tr>
+                </table>
+            </div>
+
+    </section>
+    
+    <h1 class="head">Trending</h1>
+    <main class="news-section">
+        <div class="card">
+            <img src="images2/news1.webp"
+                alt="img">
+            <div class="card-content">
+                <h3>Ruturaj Gaikwad Takes Over Chennai Super Kings Captaincy From MS Dhoni</h3>
+                <p>MS Dhoni has handed over the Chennai Super Kings' captaincy to Ruturaj Gaikwad ahead of the start of the 2024 season of the TATA IPL.Dhoni signs off as one of the most successful captains in the IPL, having led CSK to five titles (2010, 2011, 2018, 2021 and 2023), the joint-most in the League. Under Dhoni's captaincy, CSK became one of the most consistent teams in the League, reaching the finals ten times and making it to the playoffs for 12 seasons.</p>
+                <a href="https://www.iplt20.com/news/3997/ruturaj-gaikwad-takes-over-chennai-super-kings-captaincy-from-ms-dhoni">Read More</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="images2/news2.png">
+            <div class="card-content">
+                <h3>Chennai Super Kings Name Akash Singh As Replacement For Injured Mukesh Choudhary</h3>
+                <p>Chennai Super Kings (CSK) on Thursday named Akash Singh as a replacement for injured Mukesh Choudhary.Mukesh, who made his IPL debut last season and scalped 16 wickets, is recovering from a stress fracture and hence, is side-lined from the 16th edition of the TATA Indian Premier League (IPL).Akash Singh, who was a part of India’s Under-19 </p>
+                <a href="https://www.iplt20.com/news/3866/chennai-super-kings-name-akash-singh-as-replacement-for-injured-mukesh-choudhary">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images2/news3.png">
+            <div class="card-content">
+                    <h3>Matheesha Pathirana Joins Chennai Super Kings As A Replacement For Adam Milne</h3>
+                    <p>Chennai Super Kings (CSK) have signed Matheesha Pathirana as a replacement for New Zealand pacer Adam Milne for the TATA Indian Premier League (IPL) 2022. Milne suffered a hamstring injury in CSK’s first match against Kolkata Knight Riders and has been ruled out for the rest of the tournament.</p>
+                <a href="https://www.iplt20.com/news/3778/matheesha-pathirana-joins-chennai-super-kings-as-a-replacement-for-adam-milne">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images2/news4.webp">
+            <div class="card-content">
+                <h3>TATA IPL 2024 Match 61 , CSK Vs RR - Match Report</h3>
+                <p>A brilliant spell of 3/26 from the spirited Simarjeet Singh, a disciplined bowling effort from the bowlers, and a crucial knock of 42*(41) from captain Ruturaj Gaikwad helped Chennai Super Kings (CSK) notch a vital win over Rajasthan Royals in tightly-contested Match 61 of the TATA IPL 2024 at the MA Chidambaram Stadium in Chennai. </p>
+                <a href="https://www.iplt20.com/news/4090/tata-ipl-2024-match-61-csk-vs-rr-match-report">Read More</a>
+            </div>
+        </div>
+        
+    </main>
+    <footer> 
+        <h1>SPONSORS</h1>
+        <div class="sponsors">
+        <div class="sponsor">
+        <img src="images2/sponcers/ceat.svg" alt="">
+    </div>
+    <div class="sponsor">
+        <img src="images2/sponcers/jiocinema.svg" alt="">
+    </div>
+    <div class="sponsor">
+        <img src="images2/sponcers/Gulf_Oil_logo.svg" alt="">
+    </div>
+    <div class="sponsor">
+        <img src="images2/sponcers/Muthoot Finance.svg" alt="">
+    </div>
+    <div class="sponsor">
+        <img src="images2/sponcers/my11.svg" alt="">
+    </div>
+    <div class="sponsor">
+        <img src="images2/sponcers/star_sports.svg" alt="">
+    </div>
+    <div class="sponsor">
+        <img src="images2/sponcers/tata.svg" alt="">
+    </div>
+</div>
+        <div class="footer-icon">
+            
+            <div class="contact-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="match.html">Matches</a></li>
+                <li><a href="players.html">Players</a></li>
+                <li><a href="statistics.html">Statistics</a></li>
+                <li><a href="news.html">News</a></li>
+        
+            </div>
+            <div class="contact-links">
+                <a href="#">Tickets</a>
+                <a href="#">Team</a>
+                <a href="#">Photos</a>
+                <a href="#">Accessibility</a>
+                <a href="#">About us</a>
+            </div>
+            
+        <div class="icon">
+<h5>Connect with CSK </h5>
+<p class="youtube"><a href="https://www.youtube.com/channel/UC2J_VKrAzOEJuQvFFtj3KUw" target="_blank"><i class="fa-brands fa-youtube"></i></a></p>
+<p class="instagram"><a href="https://www.instagram.com/chennaiipl/" target="_blank"><i class="fa-brands fa-instagram"></i></a></p>
+<p class="facebook"><a href="https://www.facebook.com/TheChennaiSuperKings/" target="_blank"><i class="fa-brands fa-facebook"></i></a></p>
+<p class="twitter"><a href="https://x.com/ChennaiIPL" target="_blank"><i class="fa-brands fa-twitter"></i></a></p>
+
+        </div>
+       
+        </div>
+    </footer>
+
+
+
+    
+        <script src="script.js"></script>
+</body>
+
+</html>
